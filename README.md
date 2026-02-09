@@ -8,24 +8,14 @@ file using a hexadecimal wall representation. We also provided a visual represen
 of the maze and organized our code so that the generation logic can be reused later.
 
 ## Goals of this project
-<<<<<<< HEAD
 [ ] Create a maze generator from a config file
 [ ] Generate a perfect maze
 [ ] Create a visual representation of the maze
 [ ] Ensure it is appropriately packaged for reusing later
-=======
-[ ] Create a maze generator from a config file  
-[ ] Generate a perfect maze  
-[ ] Output the maze as a hexadecimal representation  
-[ ] Create a visual representation of the maze  
-[ ] Ensure it is appropriately packaged for reusing later  
->>>>>>> 3a253cbb3ec556772cacce3111b843e726950130
 
 # Instructions
 
 # Resources
-<<<<<<< HEAD
-=======
 ## Using Git for team work
 1. https://devot.team/blog/git-collaboration
 2. https://github.com/hei1sme/git-github-book
@@ -42,7 +32,6 @@ of the maze and organized our code so that the generation logic can be reused la
 5. https://dchakarov.com/blog/maze-algorithms/
 6. https://uca.hal.science/hal-03174952v1/document
 
->>>>>>> 3a253cbb3ec556772cacce3111b843e726950130
 
 # Additional Information
 ## Structure and format of the config file
@@ -57,12 +46,9 @@ of the maze and organized our code so that the generation logic can be reused la
 ### Team members
 
 ### Project planning
+
 ### What worked well
 
 ### What can be improved
 
-<<<<<<< HEAD
 ### Tools
-=======
-### Tools
->>>>>>> 3a253cbb3ec556772cacce3111b843e726950130
