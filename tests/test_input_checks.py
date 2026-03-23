@@ -27,14 +27,14 @@ def incorrect_file(monkeypatch):
 
 
 @pytest.mark.input
-def file_not_found(incorrect_file):
+def test_file_not_found(incorrect_file):
     with pytest.raises(FileNotFoundError, match="FileNotFound Error: Could not"
                        "find config.txt"):
         input_checks()
 
 
 @pytest.mark.input
-def test_argc_is_one(input_one_arg):
+def test_argc_is_one(input_two_arg):
     with pytest.raises(InputError, match="InputError: The number of arguments"
                        "is not 1"):
         input_checks()
@@ -48,6 +48,6 @@ def test_first_argv(incorrect_argv1):
 
 
 @pytest.mark.input
-def correct_input(correct_args):
+def test_correct_input(correct_args):
     result = input_checks()
     assert result is not None
