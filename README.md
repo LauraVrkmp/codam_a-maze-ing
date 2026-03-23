@@ -15,12 +15,13 @@ of the maze and organized our code so that the generation logic can be reused la
 
 # Instructions
 ## Pytest
-1. Activate the virtual environment by running this command: source a_maze_ing_venv/bin/activate
-2. cd into the virtual environment
-3. Install pytest with this command: pip install pytest
-4. cd into the tests folder
-5. Run this command: python3 pytest
-6. If you want to run specific tests like the input or config tests, run this command: python3 pytest -m input
+1. python3 -m venv a_maze_ing_venv
+2. Activate the virtual environment by running this command: source a_maze_ing_venv/bin/activate
+3. cd into the virtual environment
+4. Install pytest with this command: pip install pytest
+5. cd into bin
+6. Run this command: python3 pytest
+7. If you want to run specific tests like the input or config tests, run this command: python3 pytest -m input
 
 # Resources
 ## Using Git for team work
